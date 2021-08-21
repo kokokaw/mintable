@@ -1,0 +1,22 @@
+.ticket__wrapper {
+    position: relative;
+
+    .ticket__count {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        border-radius: 50%;
+        background-color: #550DED;
+        color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    img {
+        width: 148px;
+    }
+}

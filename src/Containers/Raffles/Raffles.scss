@@ -1,0 +1,24 @@
+.raffles__wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    .raffles__content {
+        background: #FFFFFF;
+        border-radius: 12px;
+    }
+
+    .raffles__tickets {
+        width: 340px;
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+        margin-right: 40px;
+    }
+
+    .raffles__collection {
+        flex-grow: 2;
+        box-shadow: 0px 6px 15px -4px rgba(0, 0, 0, 0.2);
+    }
+}

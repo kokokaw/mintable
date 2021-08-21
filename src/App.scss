@@ -1,0 +1,21 @@
+.app {
+  	position: relative;
+	padding-top: 119px;
+	height: 100vh;
+	color: #2D2D2D;
+	font-family: 'Lato', sans-serif;
+
+	.app__body {
+		max-width: 1340px;
+		margin: 0 auto;
+	}
+
+	button {
+		background: #550DED;
+		color: #FFFFFF;
+		font-size: 16px;
+		padding: 14px 32px;
+		border: none;
+		border-radius: 4px;
+	}
+}

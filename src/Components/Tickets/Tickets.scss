@@ -1,0 +1,32 @@
+.tickets__wrapper {
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 20px;
+        margin: 0;
+        border-bottom: 1px solid #E9E9E9;
+
+        span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 56px;
+        }
+    }
+
+    .tickets__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 23px 0;
+
+        > div {
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
